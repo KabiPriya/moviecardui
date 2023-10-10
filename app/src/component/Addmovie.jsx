@@ -53,9 +53,11 @@ function AddMovie({ onAddMovie }) {
           onChange={handleChange}
           required
         >
-          <option value="4.5">4.5</option>
-          <option value="4.0">4.0</option>
-          <option value="3.5">3.5</option>
+          <option value="1">1</option>
+          <option value="2">2</option>
+          <option value="3">3</option>
+          <option value="4">4</option>
+          <option value="5">5</option>
           {/* Add more rating options as needed */}
         </select>
         <button type="submit">Add Movie</button>
